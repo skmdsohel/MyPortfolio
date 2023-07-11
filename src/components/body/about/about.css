@@ -1,0 +1,50 @@
+.about {
+    padding-bottom: 48px;
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture {
+    height: 420px;
+}
+.about-info {
+    font-size: 24px;
+}
+.info-name {
+    color: blue;
+    font-size: 32px;
+}
+
+.button-resume{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(198, 174, 242);
+    border-style: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 20px 0;
+}
+
+.button-resume:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture {
+        height: 280px;
+    }
+    .about-info {
+        font-size: 20px;
+    }
+    .info-name {
+        font-size: 26px;
+    }
+}
