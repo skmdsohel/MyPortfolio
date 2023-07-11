@@ -4,7 +4,7 @@ html {
 .home{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 

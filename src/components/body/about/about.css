@@ -21,7 +21,8 @@
 .button-resume{
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: rgb(198, 174, 242);
+    background-color: #407BFF;
+    color: beige;
     border-style: none;
     font-size: 16px;
     padding: 10px 15px;

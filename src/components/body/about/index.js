@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
 import SocialContact from "../../common/social-contact/index";
+import developerLight from "../../../assets/coding.svg";
+import ResumePdf from "../../../assets/sohel_resume_toqqer.pdf";
+
 function About() {
   return (
     <div className="about">
@@ -11,14 +14,20 @@ function About() {
           <br /> I have experience Turning designs into delightful digital
           experiences.
           <br />
-          <button className="button-resume">Resume</button>
+          <a
+            href={ResumePdf}
+            download="sohel_resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="button-resume">
+              Download Resume
+            </button>
+          </a>
         </div>
         <div className="about-photo">
-          <img
-            alt=""
-            src={require("../../../assets/coding.png")}
-            className="picture"
-          />
+          <img alt="" src={developerLight} className="picture" />
+          {/* <DeveloperLogo /> */}
         </div>
       </div>
       <SocialContact />

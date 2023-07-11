@@ -7,8 +7,7 @@ export const ProjectData = [
     tags: ["ReactJS", "React-Router-Dom", "Redux-toolkit", "Tailwind CSS"],
     demo: "https://github.com/skmdsohel/foodStore",
     github: "https://github.com/skmdsohel/foodStore",
-    image:
-      "https://raw.githubusercontent.com/skmdsohel/foodStore/main/src/assets/FoodStore.png",
+    image: require("../../assets/images/FoodStore.png"),
   },
   {
     id: 1,
@@ -18,7 +17,6 @@ export const ProjectData = [
     tags: ["ReactJS", "Application Web Design", "Payment", "Web Development"],
     demo: "https://github.com/skmdsohel/MyPortfolio/tree/main",
     github: "https://github.com/skmdsohel/MyPortfolio/tree/main",
-    image:
-      "https://raw.githubusercontent.com/skmdsohel/MyPortfolio/main/Portfolio.png",
+    image: require("../../assets/images/Portfolio.png")
   },
 ];

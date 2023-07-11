@@ -1,9 +1,9 @@
 import React from "react";
-import "./work.css";
+import "./certificate.css";
 import Separator from "../../common/separator";
 import {WorkData} from "../../data/work";
 import WorkCard from "./work-card";
-function Work() {
+function Certificate() {
   const data = WorkData;
   return (
     <div className="work">
@@ -15,7 +15,7 @@ function Work() {
         })}
       </div>
     </div>
-  );  
+  );
 }
 
-export default Work;
+export default Certificate;

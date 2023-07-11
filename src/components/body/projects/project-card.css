@@ -8,7 +8,7 @@
 }
 .project-photo {
   width: 40%;
-  border: 5px solid #3d92f9;
+  border: 5px double #407BFF;
   border-radius: 5px;
 }
 
@@ -29,7 +29,7 @@
 
 .tag {
   padding: 4px 8px;
-  background-color: rgb(161, 161, 249);
+  background-color: #407BFF;
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(198, 174, 242);
+  background-color: #82a7fa;
   width: max-content;
   padding: 4px 8px;
   border-radius: 4px;

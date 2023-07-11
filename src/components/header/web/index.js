@@ -5,6 +5,11 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
+        <a href="#experience">
+          <i className="fi-rr-briefcase option-icon"></i>Experience
+        </a>
+      </div>
+      <div className="web-option">
         <a href="#projects">
           <i className="fi-rr-edit-alt option-icon"></i>Projects
         </a>
@@ -16,7 +21,7 @@ function Web() {
       </div>
       <div className="web-option">
         <a href="#work">
-          <i className="fi-rr-briefcase option-icon"></i>Work
+          <i className="fi-rr-briefcase option-icon"></i>Certificates
         </a>
       </div>
       <div className="web-option">

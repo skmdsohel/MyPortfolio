@@ -10,8 +10,8 @@ function Header() {
       <div className="logo">
         <img
           src={require("../../assets/logo/logoSohel.png")}
-          width={75}
-          height={75}
+          // width={75}
+          // height={75}
           alt=""
         />
       </div>
