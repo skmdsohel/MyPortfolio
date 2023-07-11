@@ -10,16 +10,6 @@ function About() {
           <br /> <span className="info-name">Mohammad Sohel</span>.
           <br /> I have experience Turning designs into delightful digital
           experiences.
-          {/* <a
-            className="project-link"
-            // href={project.github}
-            // target="_blank"
-            // rel="noreferrer"
-          >
-            <div className="link-button">
-              <i className="devicon-github-original colored"></i>Github
-            </div>
-          </a> */}
           <br />
           <button className="button-resume">Resume</button>
         </div>
