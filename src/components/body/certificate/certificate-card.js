@@ -1,9 +1,9 @@
 import React from "react";
-import "./work-card.css";
-function WorkCard ({ item }) {
+import "./certificate-card.css";
+function CertificateCard({ item }) {
   return (
     <div className="work-card">
-      <img alt="" src={item.companyLogo}className="work-logo" />
+      <img alt="" src={item.companyLogo} className="work-logo" />
       <div className="work-info">
         <label className="company-name">{item.company}</label>
         <div className="work-dates">
@@ -17,4 +17,4 @@ function WorkCard ({ item }) {
   );
 }
 
-export default WorkCard;
+export default CertificateCard;
