@@ -7,6 +7,14 @@ export const SkillsData = [
         icon: <i className="devicon-react-original colored"></i>,
       },
       {
+        name: "Redux",
+        icon: <i className="devicon-redux-original colored"></i>,
+      },
+      {
+        name: "Angular",
+        icon: <i className="devicon-angularjs-plain colored"></i>,
+      },
+      {
         name: "HTML5",
         icon: <i className="devicon-html5-plain colored"></i>,
       },
@@ -18,9 +26,18 @@ export const SkillsData = [
         name: "JavaScript",
         icon: <i className="devicon-javascript-plain colored"></i>,
       },
+
+      {
+        name: "MaterialUI",
+        icon: <i className="devicon-materialui-plain colored"></i>,
+      },
       {
         name: "Tailwind",
         icon: <i className="devicon-tailwindcss-plain colored"></i>,
+      },
+      {
+        name: "Bootstrap",
+        icon: <i className="devicon-bootstrap-plain colored"></i>,
       },
     ],
   },
@@ -30,6 +47,10 @@ export const SkillsData = [
       {
         name: "Azure",
         icon: <i className="devicon-azure-plain colored"></i>,
+      },
+      {
+        name: "Nginx",
+        icon: <i className="devicon-nginx-original colored"></i>,
       },
       {
         name: "Docker",

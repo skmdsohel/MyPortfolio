@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import SocialContact from "../../common/social-contact/index";
 import developerLight from "../../../assets/coding.svg";
-import ResumePdf from "../../../assets/sohel_resume_toqqer.pdf";
+import ResumePdf from "../../../assets/sohel_resume.pdf";
 
 function About() {
   return (

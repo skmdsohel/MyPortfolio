@@ -3,7 +3,7 @@ import "./body.css";
 import About from "./about/index";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
-// import Certificate from "./certificate/index";
+import Certificate from "./certificate/index";
 import Contact from "./contact/index";
 import Experience from "./experience";
 
@@ -22,9 +22,9 @@ function Body() {
       <section id="projects">
         <Projects />
       </section>
-      {/* <section id="work">
+      <section id="work">
         <Certificate />
-      </section> */}
+      </section>
       <section id="contact">
         <Contact />
       </section>
