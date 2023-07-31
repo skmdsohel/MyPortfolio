@@ -4,9 +4,9 @@ export const ExperienceData = [
     company: "Terralogic Inc.",
     location: "Bengaluru, Karnataka, India",
     isWorkplace: true,
-    designation: "Software Engineer II",
+    designation: "Software Engineer",
     dateJoining: "Mar 2023",
-    dateEnd: "Present",
+    dateEnd: "Jul 2023",
     skills: [
       "AngularJS",
       "React.js",

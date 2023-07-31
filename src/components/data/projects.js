@@ -10,7 +10,7 @@ export const ProjectData = [
     image: require("../../assets/images/FoodStore.png"),
   },
   {
-    id: 1,
+    id: 2,
     title: "Portfolio Web App",
     about:
       " This is my portfolio website! Here, I showcase my creative journey and professional accomplishments. Through an elegant and minimalist design, website provides insights into my expertise and skills.",
@@ -18,5 +18,15 @@ export const ProjectData = [
     demo: "https://github.com/skmdsohel/MyPortfolio/tree/main",
     github: "https://github.com/skmdsohel/MyPortfolio/tree/main",
     image: require("../../assets/images/Portfolio.png")
+  },
+  {
+    id: 3,
+    title: "Time Tracker App",
+    about:
+      "This app will track the time to complete all the tasks and individual tasks, there is feature to start & stop timer for individual tasks",
+    tags: ["Angular", "TailwindCSS", "Web Development"],
+    demo: "https://github.com/skmdsohel/MyPortfolio/tree/main",
+    github: "https://github.com/skmdsohel/MyPortfolio/tree/main",
+    image: require("../../assets/images/time-tracker-app.png")
   },
 ];
