@@ -25,8 +25,8 @@ export const ProjectData = [
     about:
       "This app will track the time to complete all the tasks and individual tasks, there is feature to start & stop timer for individual tasks",
     tags: ["Angular", "TailwindCSS", "Web Development"],
-    demo: "https://github.com/skmdsohel/MyPortfolio/tree/main",
-    github: "https://github.com/skmdsohel/MyPortfolio/tree/main",
+    demo: "https://github.com/skmdsohel/time-tracker-app",
+    github: "https://github.com/skmdsohel/time-tracker-app",
     image: require("../../assets/images/time-tracker-app.png")
   },
 ];
