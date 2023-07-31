@@ -15,7 +15,7 @@ export const ProjectData = [
     about:
       " This is my portfolio website! Here, I showcase my creative journey and professional accomplishments. Through an elegant and minimalist design, website provides insights into my expertise and skills.",
     tags: ["ReactJS", "Application Web Design", "Payment", "Web Development"],
-    demo: "https://github.com/skmdsohel/MyPortfolio/tree/main",
+    demo: "https://skmdsohel.vercel.app/",
     github: "https://github.com/skmdsohel/MyPortfolio/tree/main",
     image: require("../../assets/images/Portfolio.png")
   },
@@ -25,7 +25,7 @@ export const ProjectData = [
     about:
       "This app will track the time to complete all the tasks and individual tasks, there is feature to start & stop timer for individual tasks",
     tags: ["Angular", "TailwindCSS", "Web Development"],
-    demo: "https://github.com/skmdsohel/time-tracker-app",
+    demo: "https://time-tracker-app-skmdsohel.vercel.app/",
     github: "https://github.com/skmdsohel/time-tracker-app",
     image: require("../../assets/images/time-tracker-app.png")
   },
