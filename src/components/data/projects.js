@@ -5,7 +5,7 @@ export const ProjectData = [
     about:
       " FoodStore application is a convenient and user-friendly platform that allows customers to order food from various restaurants and have it delivered to their desired location. With just a few taps on their smartphones, users can browse through a wide range of cuisines, select their favorite dishes.",
     tags: ["ReactJS", "React-Router-Dom", "Redux-toolkit", "Tailwind CSS"],
-    demo: "https://github.com/skmdsohel/foodStore",
+    demo: "https://online-food-store-skmdsohel.vercel.app/",
     github: "https://github.com/skmdsohel/foodStore",
     image: require("../../assets/images/FoodStore.png"),
   },
