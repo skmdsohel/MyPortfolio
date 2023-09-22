@@ -15,7 +15,9 @@ const Experience = () => {
       <label className="section-title">Experience</label>
       <div className="vertical-line-items">
         <VerticalTimeline lineColor="#407BFF">
-          {ExperienceData.map((experience) => {
+          {/* reversing enperience data so that in future we can add new experience 
+          in data/experience file sequentially without updating id of all items */}
+          {ExperienceData.reverse().map((experience) => {
             return (
               <VerticalTimelineElement
                 key={experience.id}
