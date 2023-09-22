@@ -15,11 +15,15 @@ function CertificateCard({ item }) {
           <label>{item.company}</label>
         </div>
         <div className="work-desc">
-          <p>{item.work}</p>
+          <p>{shortText(item.work, 75)}</p>
         </div>
       </div>
     </a>
   );
+}
+
+function shortText(text, count) {
+  return text.slice(0, count) + (text.length > count ? "..." : "");
 }
 
 export default CertificateCard;
