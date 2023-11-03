@@ -1,7 +1,7 @@
 export const WorkData = [
   {
     company: "Hackerrank",
-    course: "JavaScript (Basic) Certificate",
+    course: "JavaScript (Intermediate) Certificate",
     companyLogo: require("../../assets/logo/hackerrank.png"),
     certificate: "https://www.hackerrank.com/certificates/50d6387bbecd",
     work: "It covers topics like Design Patterns, Memory management, concurrency model, and event loops, among others.",
