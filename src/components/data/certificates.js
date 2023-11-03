@@ -3,8 +3,8 @@ export const WorkData = [
     company: "Hackerrank",
     course: "JavaScript (Basic) Certificate",
     companyLogo: require("../../assets/logo/hackerrank.png"),
-    certificate: "https://www.hackerrank.com/certificates/f9fe3c436409",
-    work: "It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.",
+    certificate: "https://www.hackerrank.com/certificates/50d6387bbecd",
+    work: "It covers topics like Design Patterns, Memory management, concurrency model, and event loops, among others.",
   },
   {
     company: "Hackerrank",
